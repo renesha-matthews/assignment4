@@ -22,8 +22,15 @@ Universal Styling
 
 
 h2 {
-  font: 70px 'Hacked', sans-serif;
+  font: 90px 'Hacked', sans-serif;
 }
+
+h2,
+h3,
+p {
+  color: white;
+}
+
 
 /***********************
 
@@ -62,9 +69,9 @@ Hero Section Styling
 
 ***********************/
 .hero-section {
-    background: url(../image/wd2-background.jpg) center/cover no-repeat;
+    background: url(../image/wd2-background.jpg) center/cover no-repeat fixed;
     position: relative;
-    min-height: 67vh;
+    min-height: 100vh;
     z-index: 1;
 }
 
@@ -75,6 +82,54 @@ Hero Section Styling
 
 .wd-hero h1 {
     color: white;
-    font: 100px 'Hacked', sans-serif;
+    font: 200px 'Hacked', sans-serif;
     text-align: center;
+}
+
+/***********************
+
+About Section Styling
+
+***********************/
+.about-section {
+    background: url(../image/wd2-background2.jpg) center/cover no-repeat fixed;
+    position: relative;
+    min-height: 100vh;
+}
+
+.about-section h2 {
+    position: absolute;
+    top: 127px;
+    right: 609px;
+}
+
+.about-section p {
+    float: right;
+    font: 20px 'Fira Code', monospace;
+    line-height: 2.5em;
+    position: relative;
+    top: 282px;
+    right: 213px;
+    width: 34%;
+    text-shadow: 1px 1px 4px black;
+}
+
+a.button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 25px 50px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    left: 1130px;
+    bottom: -473px;
+    transition: .3s;
+}
+
+a.button:hover {
+    background: white;
+    color: black;
+    transition: .3s;
 }
