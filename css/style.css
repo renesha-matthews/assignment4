@@ -20,10 +20,6 @@ Universal Styling
     max-width: 1000px;
 }
 
-h1 {
-  font: 100px 'Hacked', sans-serif;
-  text-align: center;
-}
 
 h2 {
   font: 70px 'Hacked', sans-serif;
@@ -40,7 +36,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 99999;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 header a {
@@ -52,10 +48,33 @@ header a {
 }
 
 header a:hover {
-    color: blue;
+    color: #1bb723;
     transition: .3s;
 }
 
 header nav ul li {
     display: inline;
+}
+
+/***********************
+
+Hero Section Styling
+
+***********************/
+.hero-section {
+    background: url(../image/wd2-background.jpg) center/cover no-repeat;
+    position: relative;
+    min-height: 67vh;
+    z-index: 1;
+}
+
+.wd-hero {
+    position: relative;
+    bottom: -200px;
+}
+
+.wd-hero h1 {
+    color: white;
+    font: 100px 'Hacked', sans-serif;
+    text-align: center;
 }
