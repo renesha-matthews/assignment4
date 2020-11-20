@@ -28,3 +28,34 @@ h1 {
 h2 {
   font: 70px 'Hacked', sans-serif;
 }
+
+/***********************
+
+Header Styling
+
+***********************/
+header {
+    text-align: center;
+    background: rgb(0 0 0 / 0.6);
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    padding: 40px 0;
+}
+
+header a {
+    font: bold 25px 'Fira Code', monospace;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: .3s;
+}
+
+header a:hover {
+    color: blue;
+    transition: .3s;
+}
+
+header nav ul li {
+    display: inline;
+}
