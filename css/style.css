@@ -169,8 +169,29 @@ Trailer Section Styling
     min-height: 62vh;
 }
 
+.trailer-section h2 {
+    text-align: center;
+    padding: 48px;
+}
+
+
 iframe {
     position: relative;
-    right: -505px;
-    bottom: -130px;
+    right: -806px;
+    bottom: -60px;
+}
+
+/***********************
+
+Footer Section Styling
+
+***********************/
+footer {
+    background: black;
+    padding: 50px;
+}
+
+footer p {
+  font: 18px 'Fira Code', monospace;
+  text-align: center;
 }
