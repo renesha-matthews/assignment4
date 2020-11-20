@@ -55,7 +55,7 @@ header a {
 }
 
 header a:hover {
-    color: #1bb723;
+    color: #c013c1;
     transition: .3s;
 }
 
@@ -132,4 +132,29 @@ a.button:hover {
     background: white;
     color: black;
     transition: .3s;
+}
+
+/***********************
+
+Character Section Styling
+
+***********************/
+.characters-section {
+  background: black;
+}
+
+.characters-container {
+    text-align: center;
+    clear: both;
+}
+
+.characters {
+    width: 19%;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.highlight {
+    color: lime;
 }
