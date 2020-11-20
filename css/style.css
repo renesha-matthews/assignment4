@@ -158,3 +158,19 @@ Character Section Styling
 .highlight {
     color: lime;
 }
+
+/***********************
+
+Trailer Section Styling
+
+***********************/
+.trailer-section {
+    background: url(../image/san-francisco.jpg) center/cover no-repeat;
+    min-height: 62vh;
+}
+
+iframe {
+    position: relative;
+    right: -505px;
+    bottom: -130px;
+}
