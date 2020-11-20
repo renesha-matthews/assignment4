@@ -140,7 +140,8 @@ Character Section Styling
 
 ***********************/
 .characters-section {
-  background: black;
+    background: black;
+    min-height: 80vh;
 }
 
 .characters-container {
@@ -149,10 +150,16 @@ Character Section Styling
 }
 
 .characters {
+    font: 30px 'Fira Code', monospace;
     width: 19%;
     display: inline-block;
     position: relative;
     z-index: 1;
+}
+
+.characters-section h2 {
+    text-align: center;
+    padding: 80px;
 }
 
 .highlight {
