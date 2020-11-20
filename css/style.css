@@ -94,13 +94,13 @@ About Section Styling
 .about-section {
     background: url(../image/wd2-background2.jpg) center/cover no-repeat fixed;
     position: relative;
-    min-height: 100vh;
+    min-height: 81vh;
 }
 
 .about-section h2 {
     position: absolute;
     top: 127px;
-    right: 609px;
+    right: 539px;
 }
 
 .about-section p {
@@ -123,8 +123,8 @@ a.button {
     text-decoration: none;
     text-shadow: none;
     text-transform: uppercase;
-    left: 1130px;
-    bottom: -473px;
+    left: 960px;
+    bottom: -513px;
     transition: .3s;
 }
 
