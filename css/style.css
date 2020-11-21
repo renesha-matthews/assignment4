@@ -99,14 +99,8 @@ About Section Styling
     padding: 100px 0;
 }
 
-.about-section h2 {
-    position: absolute;
-    top: 127px;
-    right: 539px;
-    padding: 12px 16px;
-}
 
-.about-section p {
+.about p {
     float: right;
     font: 20px 'Fira Code', monospace;
     line-height: 2.5em;
@@ -115,26 +109,6 @@ About Section Styling
     right: 243px;
     width: 34%;
     text-shadow: 1px 1px 4px black;
-}
-
-a.button {
-    color: white;
-    border: 2px solid white;
-    border-radius: 8px;
-    padding: 25px 50px;
-    position: relative;
-    text-decoration: none;
-    text-shadow: none;
-    text-transform: uppercase;
-    left: 960px;
-    bottom: -513px;
-    transition: .3s;
-}
-
-a.button:hover {
-    background: white;
-    color: black;
-    transition: .3s;
 }
 
 /***********************
@@ -204,4 +178,13 @@ footer {
 footer p {
   font: 18px 'Fira Code', monospace;
   text-align: center;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+  .about h2 {
+      position: absolute;
+      top: 67px;
+      right: 423px;
+      padding: 6px 8px;
+  }
 }
