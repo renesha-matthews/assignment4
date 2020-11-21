@@ -77,6 +77,12 @@ Hero Section Styling
     z-index: 1;
 }
 
+.logo {
+    position: relative;
+    right: -3%;
+    animation: logo-slide 2s forwards linear;
+}
+
 .wd-hero {
     position: relative;
     bottom: -200px;
@@ -104,10 +110,10 @@ About Section Styling
     float: right;
     font: 20px 'Fira Code', monospace;
     line-height: 2.5em;
-    position: relative;
+    position: absolute;
     top: 182px;
-    right: 243px;
-    width: 34%;
+    right: 81px;
+    width: 42%;
     text-shadow: 1px 1px 4px black;
 }
 
@@ -180,11 +186,35 @@ footer p {
   text-align: center;
 }
 
+/***********************
+
+Logo Animation
+
+***********************/
+@keyframes logo-slide {
+  from {
+    transform: translateX(1000%);
+  }
+
+  to {
+    transform: translateX(-3%);
+  }
+}
+
+
+/***********************
+
+Media Queries
+
+***********************/
 @media screen and (min-width: 900px) and (max-width: 1440px) {
-  .about h2 {
-      position: absolute;
-      top: 67px;
-      right: 423px;
-      padding: 6px 8px;
+  .about p {
+    float: right;
+    font: 20px 'Fira Code', monospace;
+    line-height: 2.5em;
+    position: absolute;
+    right: 81px;
+    width: 42%;
+    text-shadow: 1px 1px 4px black;
   }
 }
