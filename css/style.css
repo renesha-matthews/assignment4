@@ -159,7 +159,7 @@ Trailer Section Styling
 
 ***********************/
 .trailer-section {
-    background: url(../image/san-francisco.jpg) center/cover no-repeat;
+    background: url(../image/san-francisco.jpg) center/cover no-repeat fixed;
     min-height: 62vh;
     padding: 100px 0;
 }
@@ -198,6 +198,13 @@ Media Queries
 
 ***********************/
 @media screen and (min-width: 768px) and (max-width: 1366px) {
+  .wd-hero h1 {
+      font: 200px 'Hacked', sans-serif;
+      text-align: center;
+      position: relative;
+      bottom: 107px;
+  }
+
   .about p {
     float: right;
     font: 20px 'Fira Code', monospace;
