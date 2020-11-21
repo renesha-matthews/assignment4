@@ -64,6 +64,7 @@ header nav ul li {
     display: inline;
 }
 
+
 /***********************
 
 Hero Section Styling
@@ -93,6 +94,7 @@ Hero Section Styling
     text-align: center;
 }
 
+
 /***********************
 
 About Section Styling
@@ -116,6 +118,7 @@ About Section Styling
     width: 42%;
     text-shadow: 1px 1px 4px black;
 }
+
 
 /***********************
 
@@ -149,6 +152,7 @@ Character Section Styling
     color: lime;
 }
 
+
 /***********************
 
 Trailer Section Styling
@@ -171,6 +175,7 @@ iframe {
     margin: 0 auto;
 }
 
+
 /***********************
 
 Footer Section Styling
@@ -186,6 +191,38 @@ footer p {
   text-align: center;
 }
 
+
+/***********************
+
+Media Queries
+
+***********************/
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .about p {
+    float: right;
+    font: 20px 'Fira Code', monospace;
+    line-height: 2.5em;
+    position: absolute;
+    right: 32px;
+    width: 52%;
+    text-shadow: 1px 1px 4px black;
+    top: 14%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+  .about p {
+    float: right;
+    font: 20px 'Fira Code', monospace;
+    line-height: 2.5em;
+    position: absolute;
+    right: 81px;
+    width: 42%;
+    text-shadow: 1px 1px 4px black;
+  }
+}
+
+
 /***********************
 
 Logo Animation
@@ -198,23 +235,5 @@ Logo Animation
 
   to {
     transform: translateX(-3%);
-  }
-}
-
-
-/***********************
-
-Media Queries
-
-***********************/
-@media screen and (min-width: 900px) and (max-width: 1440px) {
-  .about p {
-    float: right;
-    font: 20px 'Fira Code', monospace;
-    line-height: 2.5em;
-    position: absolute;
-    right: 81px;
-    width: 42%;
-    text-shadow: 1px 1px 4px black;
   }
 }
