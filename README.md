@@ -6,30 +6,30 @@ In order to optimize this code for different screens, use the follow `code`:
 
 **Screen Resolution:** 1366 x 768
 ``` css
-@media screen and (min-width: 768px) and (max-width: 1366px) {
-  .wd-hero h1 {
-      font: 200px 'Hacked', sans-serif;
-      text-align: center;
-      position: relative;
-      bottom: 107px;
-  }
+@media screen and (max-width: 1366px) {
+    .wd-hero h1 {
+        font: 200px 'Hacked', sans-serif;
+        text-align: center;
+        position: relative;
+        bottom: 107px;
+    }
 
-  .about p {
-    float: right;
-    font: 18px 'Fira Code', monospace;
-    line-height: 2.5em;
-    position: absolute;
-    top: 26%;
-    right: 81px;
-    width: 46%;
-    text-shadow: 1px 1px 4px black;
+    .about p {
+      float: right;
+      font: 18px 'Fira Code', monospace;
+      line-height: 2.5em;
+      position: absolute;
+      top: 26%;
+      right: 81px;
+      width: 46%;
+      text-shadow: 1px 1px 4px black;
+    }
   }
-}
 ```
 
 **Screen Resolution:** 1440 x 900
 ``` css
-@media screen and (min-width: 900px) and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .about h2 {
       float: right;
       position: relative;
@@ -39,7 +39,7 @@ In order to optimize this code for different screens, use the follow `code`:
 
   .about p {
     float: right;
-    font: 20px 'Fira Code', monospace;
+    font: 18px 'Fira Code', monospace;
     line-height: 2.5em;
     position: absolute;
     right: 81px;
@@ -49,9 +49,16 @@ In order to optimize this code for different screens, use the follow `code`:
 }
 ```
 
+### Troubleshooting
+If media queries do not load properly, make sure to have the following `code` in the `<head>` tag in your HTML document:
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
 ## Resources
 * [CSS Media Queries](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 * [Download Hacked Font](https://watchdogsfont.com/)
+* [CSS Media Query Troubleshooting](https://stackoverflow.com/questions/18207076/css-media-query-wont-work/18207189)
 
 
 ## Agreement

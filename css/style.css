@@ -200,10 +200,10 @@ footer p {
 
 /***********************
 
-Media Queries
+Responsive
 
 ***********************/
-@media screen and (min-width: 768px) and (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
   .wd-hero h1 {
       font: 200px 'Hacked', sans-serif;
       text-align: center;
@@ -223,7 +223,7 @@ Media Queries
   }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .about h2 {
       float: right;
       position: relative;
@@ -233,7 +233,7 @@ Media Queries
 
   .about p {
     float: right;
-    font: 20px 'Fira Code', monospace;
+    font: 18px 'Fira Code', monospace;
     line-height: 2.5em;
     position: absolute;
     right: 81px;
