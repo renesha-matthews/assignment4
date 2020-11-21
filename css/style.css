@@ -107,13 +107,19 @@ About Section Styling
     padding: 100px 0;
 }
 
+.about h2 {
+    float: right;
+    position: relative;
+    left: -21%;
+    top: 6px;
+}
 
 .about p {
     float: right;
     font: 20px 'Fira Code', monospace;
     line-height: 2.5em;
     position: absolute;
-    top: 182px;
+    top: 242px;
     right: 81px;
     width: 42%;
     text-shadow: 1px 1px 4px black;
@@ -207,17 +213,24 @@ Media Queries
 
   .about p {
     float: right;
-    font: 20px 'Fira Code', monospace;
+    font: 18px 'Fira Code', monospace;
     line-height: 2.5em;
     position: absolute;
-    right: 32px;
-    width: 52%;
+    top: 26%;
+    right: 81px;
+    width: 46%;
     text-shadow: 1px 1px 4px black;
-    top: 14%;
   }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1440px) {
+  .about h2 {
+      float: right;
+      position: relative;
+      left: -21%;
+      top: -46px;
+  }
+
   .about p {
     float: right;
     font: 20px 'Fira Code', monospace;
